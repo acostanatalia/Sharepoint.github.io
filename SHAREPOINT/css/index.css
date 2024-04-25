@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(17, 45, 67);
+  }
+
+  #cabecera {
+    color: #fff;
+    font-family: 'Lucida Sans Regular';
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center; /* Alinea los elementos horizontalmente */
+  }
+  
+  #cabecera img {
+    font-family: 'Lucida Sans Regular';
+    color: #fff;
+    width: 150px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+  }
+
+  /* Estilo para el menú de navegación */
+  nav {
+    background-color: #2b3d51; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+  }
+
+  nav ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline; /* Para que los elementos de la lista aparezcan en línea */
+    margin: 0 10px; /* Espaciado entre elementos */
+  }
+
+  nav ul li a {
+    font-family: 'Lucida Sans Regular';
+    text-transform: uppercase;
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+  }
+
+  /* Estilo para la sección de integrantes */
+#integrantes {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: center; /* Alinea los elementos horizontalmente */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .divs {
+    margin: 0 10px; /* Margen exterior */
+    text-align: center; /* Alineación del texto */
+    font-family: 'Lucida Sans';
+  }
+  
+  .divs h2{
+    font-size: medium;
+    color: #fff;
+  }
+
+  .divs img {
+    border-radius: 50%; /* Hace que las imágenes sean círculos */
+    width: 200px; /* Tamaño de la imagen */
+    height: 200px; /* Tamaño de la imagen */
+    border: 2px solid white; /* Borde blanco de 2px de ancho */
+  }
+  
+  
+
+  .divs {
+    margin: 20px; /* Margen exterior */
+    text-align: center; /* Alineación del texto */
+  }
+
+  /* Estilo para el banner */
+  #banner {
+    display: block; /* Para que la imagen ocupe todo el ancho disponible */
+    width: 100%; /* Ancho del banner al 100% */
+    margin-bottom: 20px;
+  }
+  
+
+  #secobj{
+    border: 2px solid white; /* Borde blanco de 2px de ancho */
+    outline: 2px solid white; /* Borde externo blanco de 2px de ancho */
+    color: rgb(17, 45, 67);
+    width: 90%;
+    height: 350px;
+    background-color: rgb(255, 255, 255); 
+    display: block;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#secobj p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#objetivosimg{
+    width: 30%;
+    height: auto;
+
+}
+
+#objetivosimg img{
+    width: 100%;
+    height: auto;
+
+}
+
+#objetivostxt{
+    margin: 25px 0px 0px 60px;
+    width: 70%;
+    height: auto;
+}
+
+
+ #banner2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#secobj2{
+    color: #fff;
+    width: 80%;
+    height: 450px;
+    /* background-color: brown; */
+    display: block;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#secobj2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+#logosimg{
+    width: 24%;
+    height: auto;
+
+}
+
+#logosimg img{
+    filter: grayscale(100%) brightness(0) invert(100%);
+    width: 100%;
+    height: auto;
+
+}
+
+#abstracttxt{
+    margin: 25px 0px 0px 60px;
+    width: 70%;
+    height: auto;
+}
+
+#poster{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#poster img{
+    width: 100%;
+}
+
+
+#contenedor2 {
+    color: #fff;
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  #contenedor2 h3 {
+    margin-bottom: 20px; /* Espacio inferior entre el encabezado y los elementos */
+  }
+  
+  .cont2 {
+    display: inline-block; /* Hace que los elementos se muestren en línea */
+    margin: 0 10px; /* Espaciado horizontal entre los elementos */
+  }
+  
+  .cont2 img {
+    border-radius: 50%;
+    width: 50px; /* Tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-bottom: 10px; /* Espacio inferior entre la imagen y el texto */
+  }
+  
+  .cont2 a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #ffffff; /* Color del texto */
+    display: block; /* Convierte los enlaces en bloques para que ocupen todo el ancho disponible */
+  }
+  
