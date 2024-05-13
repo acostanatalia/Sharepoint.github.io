@@ -83,7 +83,6 @@
 
 
 
-
 <div id="intro">
 
             <h2>INTRODUCCIÓN</h2>
@@ -98,4 +97,31 @@
         </section>
     </div>
 </body>
+
+
+<div class="accordion">
+    <button class="accordion-item" onclick="togglePanel()">Semestre 1</button>
+    <div class="panel">
+      <a href="pdfs/ANALISIS DE PROBLEMATICA.docx" onclick="openLightbox('archivo1.pdf')">Archivo 1</a>
+      <a href="pdfs/COMITÉ DE DISTRIBUCIÓN DE UTILIDADES.docx" onclick="openLightbox('archivo2.pdf')">Archivo 2</a>
+      <a href="pdfs/ENCUESTA VETERINARIA.pdf" onclick="openLightbox('archivo3.pdf')">Archivo 3</a>
+    </div>
+  </div>
+  
+  <!-- Lightbox -->
+  <div id="lightbox" class="hidden">
+    <div class="lightbox-content">
+      <span class="close-btn" onclick="closeLightbox()">&times;</span>
+      <embed src="" type="application/pdf" width="100%" height="600px" id="pdf-embed">
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+
+
+
+
+
+
 </html>
