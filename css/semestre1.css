@@ -1,40 +1,72 @@
-#intro {
-    width: 80%; /* Ajusta el ancho del cuerpo al 80% del ancho de la pantalla */
-    margin: 0 auto; /* Centra horizontalmente el cuerpo */
-    color: white; /* Establece el color de texto en blanco */
-}
+h1, h2, h3, h4, h5{
 
-h2, h3, h5, p {
-    color: white; /* Establece el color de texto en blanco para todos los elementos de texto */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-----------
+.sec_sem1{
 
-#proyecto {
-    color: white
-    display: flex; /* Usa flexbox para colocar los elementos en una fila */
+  width: 100%;
+  display: flex;
 }
 
-.texto {
-    ;
-    width: 70%; /* Establece el ancho del contenedor de texto */
-    padding: 20px; /* Espaciado interno */
+.sec_sem1 #container1{
+
+  width: 70%;
+  
+
 }
 
-.imagen {
-    width: 30%; /* Establece el ancho del contenedor de la imagen */
-    padding: 20px; /* Espaciado interno */
+.sec_sem1 #container2{
+
+  width: 30%;
+  display: block;
+  justify-content: center; 
+  text-align: center;
+
+}
+
+#container2 img{
+  width: 80%;
+}
+
+
+#container2 p{
+
+}
+
+#img{
+  width: 100%;
+  height: 100px;
+  padding: 200px  0;
+  background-image: url(../img/banner.jpeg);
+opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* ----------------*/
+.panel {
+  width: 100%;
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  justify-content: center; /* Alinea los elementos horizontalmente */
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: #fff;
+}
+
 
 .accordion {
-  width: 100%;
+  width: 80%;
   margin: 20px auto;
+
 }
 
 .accordion-item {
+  font-family: 'Franklin Gothic Medium';
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -50,23 +82,57 @@ h2, h3, h5, p {
   background-color: #ccc;
 }
 
-.panel {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
+.titmat {
+  background-color: #ffffff;
+  color: #444;
+  padding: 10px;
+  margin-top: 20px;
+
 }
 
-.panel a {
-  display: inline-block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  border: 1px solid #ddd;
-  margin-right: 10px;
+---------------------------
+
+#pdfs1 {
+  width: 100%;
+  height: 300px;
+  display: block;
+  clear: both; /* Asegura que cada div comience en una nueva línea */
+  margin-top: 20px; /* Añade un margen superior para separar los divs */
 }
+
+
+#pdfs,  #pdfs2 {
+  width: 100%;
+  height: 500px;
+  display: block;
+  clear: both; /* Asegura que cada div comience en una nueva línea */
+  margin-top: 20px; /* Añade un margen superior para separar los divs */
+}
+
+#pdfs a, #pdfs1 a, #pdfs2 a {
+  text-align: center;
+  margin-top: 20px;
+  width: 30%;
+  display: inline-block;
+  padding: 11px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ddd;
+  margin-right: 11px;
+  float: left;
+}
+
+#pdfs a img, #pdfs1 a img, #pdfs2 a img  {
+  width: 10%;
+  filter: invert(100%) brightness(2);
+}
+
+
+---------------
+
 
 .panel a:hover {
-  background-color: #f0f0f0;
+  background-color:  rgba(7, 12, 15, 0.521);
 }
 
 .preview {
@@ -93,6 +159,7 @@ h2, h3, h5, p {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 999;
+    
   }
   
   .lightbox-content {

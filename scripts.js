@@ -7,6 +7,8 @@ function togglePanel() {
   }
 }
 
+
+
 function openLightbox(pdfSrc) {
   var lightbox = document.getElementById('lightbox');
   var pdfEmbed = document.getElementById('pdf-embed');
