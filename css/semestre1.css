@@ -3,6 +3,21 @@ h1, h2, h3, h4, h5{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+hr{
+  border: 0;
+  height: 1px;
+  background: #ffffff;
+  margin: 20px 0;
+}
+
+.sec1{
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  justify-content: center; /* Alinea los elementos horizontalmente */
+
+}
+
 
 .sec_sem1{
 
@@ -31,9 +46,6 @@ h1, h2, h3, h4, h5{
 }
 
 
-#container2 p{
-
-}
 
 #img{
   width: 100%;
@@ -82,36 +94,112 @@ opacity: 0.8;
   background-color: #ccc;
 }
 
-.titmat {
-  background-color: #ffffff;
-  color: #444;
-  padding: 10px;
-  margin-top: 20px;
+---------------------------
 
+.panel2 {
+  width: 100%;
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  justify-content: center; /* Alinea los elementos horizontalmente */
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: #fff;
+}
+
+
+.accordion1 {
+
+  width: 80%;
+  margin: 20px auto;
+
+}
+
+.accordion-item1 {
+  font-family: 'Franklin Gothic Medium';
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion-item1:hover {
+  background-color: #ccc;
 }
 
 ---------------------------
 
+.panel3 {
+  width: 100%;
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  justify-content: center; /* Alinea los elementos horizontalmente */
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: #fff;
+}
+
+
+.accordion2 {
+
+  width: 80%;
+  margin: 20px auto;
+
+}
+
+.accordion-item2 {
+  font-family: 'Franklin Gothic Medium';
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion-item1:hover {
+  background-color: #ccc;
+}
+
+
+---------------------------
+
+#pdfs  {
+  width: 100%;
+  height: 630px;
+  display: block;
+  clear: both; /* Asegura que cada div comience en una nueva línea */
+  margin-top: 20px; /* Añade un margen superior para separar los divs */
+}
+
 #pdfs1 {
   width: 100%;
-  height: 300px;
+  height: 550px;
   display: block;
   clear: both; /* Asegura que cada div comience en una nueva línea */
   margin-top: 20px; /* Añade un margen superior para separar los divs */
 }
 
 
-#pdfs,  #pdfs2 {
+  #pdfs2 {
   width: 100%;
-  height: 500px;
+  height: 550px;
   display: block;
   clear: both; /* Asegura que cada div comience en una nueva línea */
-  margin-top: 20px; /* Añade un margen superior para separar los divs */
+  margin-top: 10px; /* Añade un margen superior para separar los divs */
 }
 
 #pdfs a, #pdfs1 a, #pdfs2 a {
   text-align: center;
-  margin-top: 20px;
+  height: 210px;
+  margin-top: 30px;
   width: 30%;
   display: inline-block;
   padding: 11px;
