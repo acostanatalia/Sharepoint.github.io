@@ -52,7 +52,7 @@ hr{
   height: 100px;
   padding: 200px  0;
   background-image: url(../img/banner.jpeg);
-opacity: 0.8;
+opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -267,4 +267,9 @@ opacity: 0.8;
     cursor: pointer;
   }
 
+
+
+  
+
+  
   

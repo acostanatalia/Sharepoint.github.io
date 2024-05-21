@@ -39,3 +39,6 @@ function closeLightbox() {
   var lightbox = document.getElementById('lightbox');
   lightbox.style.display = 'none';
 }
+
+
+

@@ -1,0 +1,31 @@
+
+  /*--------------Segundo semestre-------------*/
+
+  .sec_sem1 #container1{
+
+     
+    margin-left: 50px;
+    
+  
+  }
+ 
+
+  #img{
+
+    padding: 200px  0;
+    background-image: url(../img/tercer\ sem.jpg);
+
+  }
+
+  #pdfs a, #pdfs1 a, #pdfs2 a {
+
+    height: 120px;
+
+  }
+
+  
+  #pdfs1 {
+    height: 160px;
+    margin-top: 0%;
+
+  }
