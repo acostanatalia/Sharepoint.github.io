@@ -1,0 +1,47 @@
+#pdfs a, #pdfs1 a, #pdfs2 a {
+
+    height: 120px;
+  
+  }
+  
+  
+  
+  
+  #pdfs1 {
+    height: 190px;
+    margin-top: 0%;
+  
+  }
+
+
+  
+
+iframe {
+    width: 90%;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin-left: 50px;
+}
+
+.sec_sem1 #container1{
+
+    width: 70%;
+    
+  
+  }
+  
+  .sec_sem1 #container2{
+  
+    width: 30%;
+    display: block;
+    justify-content: center; 
+
+  
+  }
+  #img{
+
+    padding: 200px  0;
+    background-image: url(../img/5.jpeg);
+
+  }
+  

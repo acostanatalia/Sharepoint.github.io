@@ -39,7 +39,12 @@
     padding: 2%;
   }
 
+  #img{
 
+    padding: 200px  0;
+    background-image: url(../img/3.jpeg);
+
+  }
 .vid h3{
  
   text-align: center;
@@ -63,4 +68,10 @@
 
 }
 
+
+#pdfs2 {
+
+  height: 210px;
+
+}
 

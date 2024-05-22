@@ -1,0 +1,26 @@
+#pdfs a, #pdfs1 a, #pdfs2 a {
+
+    height: 120px;
+  
+  }
+  
+  
+  
+  
+  #pdfs1 {
+    height: 350px;
+    margin-top: 0%;
+  
+  }
+
+  #pdfs2 {
+    height: 210px;
+
+  
+  }
+  #img{
+
+    padding: 200px  0;
+    background-image: url(../img/4.jpeg);
+
+  }
